@@ -1,6 +1,6 @@
 <?php
 
-class Annonce{ 
+class Conference{ 
     
     private $id;
     private $id_int;
