@@ -15,6 +15,8 @@ class Annonce{
     
 
    }
+
+   //methode get retourne la valeur
    public function getId(){return $this-> id;}
    public function getId_int(){return $this-> id_int;}
    public function getTitre_in(){return $this-> titre_in;}
@@ -22,6 +24,9 @@ class Annonce{
    public function getLieu(){return $this-> lieu;}
    public function getDate_in(){return $this-> date_in;}
    public function getDate_M_S_J(){return $this-> date_M_S_J;}
+
+   //methode set ne retourne pas la valeur
+   
    public function setId($id): void{$this->id = $id;}
    public function setId_int($id_int): void {$this->id_int = $id_int;}
    public function setTitre_in($titre_in){return $this->titre_in = $titre_in;}

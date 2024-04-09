@@ -6,6 +6,8 @@ class Commentaire{
     private $texte;
     private $date_texte;
 
+	//methode get retourn la valeur
+
     public function getIntervenant() {return $this->intervenant;}
 
 	public function getSeminaire() {return $this->seminaire;}
@@ -13,6 +15,8 @@ class Commentaire{
 	public function getTexte() {return $this->texte;}
 
 	public function getDateTexte() {return $this->date_texte;}
+
+	//methode set ne retourne rien
 
 	public function setIntervenant( $intervenant): void {$this->intervenant = $intervenant;}
 

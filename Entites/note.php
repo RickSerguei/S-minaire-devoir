@@ -1,5 +1,7 @@
+<?php
+
 //2. Définissez toutes les entités requises dans votre IDE, en prenant soin de spécifier les types
-pour les attributs et les paramètres des méthodes.
+//pour les attributs et les paramètres des méthodes.
 
 //les attributs:
 //id => types int
@@ -13,7 +15,7 @@ pour les attributs et les paramètres des méthodes.
 // 3. BONUS, précisez le type de retour pour chacune de vos méthodes
 
 
-// Méthode set pour modifier les valeurs des attributs 
-// Méthode get pour obtenir les valeurs des attributs
+// Méthode set qui ne retourne rien 
+// Méthode get qui retourne  les valeurs des attributs
 
 
