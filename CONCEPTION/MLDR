@@ -1,0 +1,4 @@
+# Modèle créé le : Thu Apr 04 11:38:15 BST 2024 
+Intervenant (id_Intervenant, nom_Intervenant, prenom_Intervenant, affectation_Intervenant, url_personnelle_Intervenant) 
+Séminaire (id_Séminaire, id_intervenant_Séminaire, titre_Séminaire, resume_Séminaire, lieu_Séminaire, date_intervention_Séminaire, date_derniere_maj_Séminaire) 
+Donner (id_Intervenant, id_Séminaire) 
