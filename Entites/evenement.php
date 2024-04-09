@@ -1,6 +1,6 @@
 <?php
 
-class Conference{ 
+class evenement{ 
     
     private $id;
     private $id_int;
